@@ -59,13 +59,4 @@ public class BagsSteps extends BaseStepsUi {
                 .clickOnAddToCard();
         return messagesBarSteps;
     }
-
-//    @Step(BagsPage.NAME + ": Verify bag is added - {bagModel}")
-//    public BagsSteps verifyBagIsAdded(BagModel bagModel, int expectedItems) {
-//        page.getCardFromModel(bagModel);
-//        card
-//                .scrollTo()
-//                .clickOnAddToCard();
-//        return this;
-//    }
 }
