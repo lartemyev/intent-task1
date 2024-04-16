@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.intent.task</groupId>
+  <artifactId>intent-task</artifactId>
+  <version>1.0</version>
+  <name>intent-task</name>
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <!-- https://mvnrepository.com/artifact/com.codeborne/selenide -->
+    <selenide.version>7.2.3</selenide.version>
+
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
+    <junit.jupiter.version>5.10.2</junit.jupiter.version>
+
+    <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-junit5 -->
+    <allure-junit5.version>2.27.0</allure-junit5.version>
+
+    <!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite -->
+    <junit-platform-suite.version>1.10.2</junit-platform-suite.version>
+
+    <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-maven -->
+    <allure-maven.version>2.12.0</allure-maven.version>
+
+    <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+    <aspectj.version>1.9.22</aspectj.version>
+
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <lombok.version>1.18.32</lombok.version>
+
+    <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+    <assertj-core.version>3.25.3</assertj-core.version>
+
+    <!-- https://mvnrepository.com/artifact/net.datafaker/datafaker -->
+    <net.datafaker.version>2.1.0</net.datafaker.version>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+    <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+    <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
+
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+    <slf4j.version>2.0.13</slf4j.version>
+
+    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+    <log4j.version>1.2.17</log4j.version>
+
+    <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+    <commons-io.version>2.16.1</commons-io.version>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+    <org.apache.commons.version>3.14.0</org.apache.commons.version>
+
+    <!-- https://mvnrepository.com/artifact/org.aeonbits.owner/owner -->
+    <org.aeonbits.owner.version>1.0.12</org.aeonbits.owner.version>
+
+    <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+    <io.rest-assured.version>5.4.0</io.rest-assured.version>
+
+    <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+    <com.google.code.gson.version>2.10.1</com.google.code.gson.version>
+
+    <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+    <ch.qos.logback.version>1.5.3</ch.qos.logback.version>
+
+    <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+    <org.jsoup.version>1.17.2</org.jsoup.version>
+
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.codeborne</groupId>
+      <artifactId>selenide</artifactId>
+      <version>${selenide.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.codeborne/selenide-proxy -->
+    <dependency>
+      <groupId>com.codeborne</groupId>
+      <artifactId>selenide-proxy</artifactId>
+      <version>${selenide.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-suite</artifactId>
+      <version>${junit-platform-suite.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-junit5</artifactId>
+      <version>${allure-junit5.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>${lombok.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>${assertj-core.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>net.datafaker</groupId>
+      <artifactId>datafaker</artifactId>
+      <version>${net.datafaker.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>${log4j.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>${commons-io.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>${org.apache.commons.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-launcher</artifactId>
+      <version>1.10.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.aeonbits.owner</groupId>
+      <artifactId>owner</artifactId>
+      <version>${org.aeonbits.owner.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>${io.rest-assured.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>${io.rest-assured.version}</version>
+        <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>${com.google.code.gson.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>${org.jsoup.version}</version>
+    </dependency>
+
+  </dependencies>
+</project>
