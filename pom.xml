@@ -3,10 +3,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.intent.task</groupId>
-  <artifactId>intent-task</artifactId>
+  <groupId>com.magento.task</groupId>
+  <artifactId>magento-task</artifactId>
   <version>1.0</version>
-  <name>intent-task</name>
+  <name>magento-task</name>
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>

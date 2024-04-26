@@ -1,21 +1,21 @@
 {
-  "com.intent.task.objects.ui.pages.homepage.HomePage": {
+  "com.magento.task.objects.ui.pages.homepage.HomePage": {
     "GEAR_MENU_BAGS_MENU_ITEM": "Bags"
   },
-  "com.intent.task.objects.ui.pages.bagspage.BagsPage": {
+  "com.magento.task.objects.ui.pages.bagspage.BagsPage": {
     "TITLE_TEXT": "Bags"
   },
-  "com.intent.task.objects.ui.pages.shared.messagesbar.MessagesBarPage": {
+  "com.magento.task.objects.ui.pages.shared.messagesbar.MessagesBarPage": {
     "YOU_ADDED_TO_YOUR_SHOPPING_CART_MESSAGE": "You added %s to your shopping cart.",
     "THE_REQUESTED_QTY_IS_NOT_AVAILABLE": "The requested qty is not available"
   },
-  "com.intent.task.objects.ui.pages.checkout.Step1ShippingAddressPage": {
+  "com.magento.task.objects.ui.pages.checkout.Step1ShippingAddressPage": {
     "PAGE_TITLE_TEXT": "Shipping Address"
   },
-  "com.intent.task.objects.ui.pages.checkout.Step2PaymentMethodPage": {
+  "com.magento.task.objects.ui.pages.checkout.Step2PaymentMethodPage": {
     "PAGE_TITLE_TEXT": "Payment Method"
   },
-  "com.intent.task.objects.ui.pages.checkout.Step3ThankYouPage": {
+  "com.magento.task.objects.ui.pages.checkout.Step3ThankYouPage": {
     "PAGE_TITLE_TEXT": "Thank you for your purchase!"
   }
 }
